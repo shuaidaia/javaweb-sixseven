@@ -1,0 +1,10 @@
+body{
+	background-color: #ccc;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pc{
+	font-size: 36px;
+	color: red;
+	text-align: center;
+	margin-top: 120px;
+}

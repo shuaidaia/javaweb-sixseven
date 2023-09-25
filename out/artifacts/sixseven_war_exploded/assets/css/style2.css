@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+html{ height:100%;}
+body{ font-size:12px; background-color:#0A5C8E;height:100%;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#CC9900; text-decoration:underline;}
+li{ list-style-type:none;}
+a img{ border:none;}
+#frmain{ background-color:#FFF;background: #EFF7FF; padding-bottom:20px;}
+/*==========frheader===========*/
+#frheader{ background:url(../images/frheader_bg.jpg) repeat-x; height:84px; position:relative;}
+#subnav{
+	position:absolute;
+	height:20px;
+	right: 10px;
+	bottom: 4px;
+}
+#subnav li{ width:70px; height:20px; border:1px solid #CCCCCC; float:left; text-align:center; margin-right:3px; }
+#subnav li a{line-height:20px;font-size:12px;}
+
+/*==========frsubsider===========*/
+#frsubsider{ width:168px; margin-left:3px;background-color:#E5F4FD; height:100%; position:relative;}
+#frsubsider h2{ background:url(../images/main_43.gif) no-repeat; height:23px; line-height:23px; text-align:center; color:#FFFFFF; font-size:13px; font-weight:600; cursor:pointer;}
+#frsubsider h2 a{ color:#FFF; text-decoration:none;font-weight:600;}
+#frsubsider h2.first{ background:url(../images/main_29.gif) no-repeat left bottom #0A5C8E;}
+#frsubsider h2.last{ background:url(../images/main_45.gif) no-repeat; cursor:text;width:168px; height:23px;}
+#frsubsider ul{margin:0 auto; vertical-align:bottom; padding:5px; background:url(../images/left_line.jpg) no-repeat center top;}
+#frsubsider li{line-height:27px;  text-align:left; margin-bottom:3px;}
+#frsubsider li h3{ font-size:14px; font-weight:600; display:block; background:url(../images/menu_bg1.gif) no-repeat center; font-size:12px;padding-left:20px; cursor:pointer}
+#frsubsider li .subitems{ background:#FFF; padding-left:25px; display:none;}
+
+/*==========frmain===========*/
+#main{margin:0 3px;}
+
+/*============圆角CSS==============*/
+.sharp{ }
+.content {padding-top:1px;}
+
+
+
+/*=================tbl===============*/
+.tbl{ margin:10px; padding-bottom:40px; position:relative;}
+.tbl h1{ background:url(../images/tab_05.gif) repeat-x; height:30px; line-height:30px; font-size:13px; font-weight:500; padding-left:10px;}
+.tbl h1 strong{ font-weight:bold; background:url(../images/a_icon.jpg) no-repeat left center; padding-left:15px;}
+.tbl span{ margin-left:10px;}
+.tbl span.cke_toolbar,.tbl span.cke_toolbar span{ margin:1px; padding:0;}
+.optlist{ position:absolute; right:20px; top:7px;}
+
+.search{ margin:5px auto; line-height:20px;}
+.search label{ white-space:nowrap;}
+
+
+.tbllist{ border:none; border-collapse:collapse; border:1px solid #CCC; width:100%; margin:0px auto; margin-bottom:10px; text-align:center;}
+.tbllist th{ background:url(../images/bg.gif) repeat-x; height:22px; line-height:22px; border:1px solid #CCC; color:#333;}
+.tbllist tr.even{ background:#F7F7F7;}
+.tbllist td{ height:25px; line-height:25px;border:1px solid #CCC; }
+.tbllist .opt a img,.optlist a img{ vertical-align:middle; margin-left:10px; margin-right:3px;}
+.tbllist tr:hover td{ background-color:#D0D0D0; color:#000;}
+.tbllist td img{ max-width:400px;}
+.messagelist td{ text-align:left; padding-left:10px;}
+.left{ text-align:left; padding-left:10px;}
+.pagenav{ line-height:20px; text-align:center; margin-top:10px;}
+.pagenav a{color:#000; padding:0px 5px;}
+.pagenav span{ margin-left:5px; background-color:#999; color:#000;text-align:center; padding:3px 0;}
+.pagenav .page_cur{ padding:3px 5px; }
+.pagenav .page_first,.pagenav .page_last,.pagenav .page_next,.pagenav .page_pre{ background:none; color:#000;}
+.pagenav .page_first a,.pagenav .page_last a,.pagenav .page_next a,.pagenav .page_pre a{color:#000;}
+.pagenav .page_info{ background:none;}
+.btp{ text-align:center;}
+.tbllist caption{ text-align:left; padding-left:10px; line-height:30px; font-weight:bold; color:#333;}
+
+.errorinfo{ color:#F00; margin-left:5px; margin-right:5px; display:none;}
+/*==================policy=====================*/
+.pctbl{ width:500px; margin:10 auto; border:1px solid #CCC;}
+.pctbl th{background:url(../images/bg.gif) repeat-x; height:22px; line-height:22px; border:1px solid #CCC; color:#333; }
+.pctbl td{ line-height:25px;}
+.checkresult ul{ width:95%; margin:10px auto; background-color:#FFF;}
+.checkresult li span{ color:#F00; font-weight:bold;}
+.checkresult li{ line-height:30px; border-bottom:1px solid #CCC; padding-left:10px;}
+
+#confirmresult ul li span{ color:#333; margin-right:10px;}
+
+ul.errorlist{ padding:10px; border:1px solid #666;}
+ul.errorlist li{ line-height:20px; color:#F00; font-weight:bold; padding-left:10px;}
+/*==================tbledit====================*/
+input,select{ vertical-align:middle;}
+.tbledit{ width:100%; margin-top:20px;}
+.tbledit td{ padding:5px 0;}
+.longtxt{ width:350px;}
+.stxt,.numtext{ width:20px;}
+.mnum{ width:40px;}
+.mtxt{ width:120px;}
+.ltxt{ width:300px;}
+.tbledit th,.tbledit td{ line-height:30px;}
+.tbledit th{ padding-right:5px; width:180px;}
+.contxt{ display:block; width:700px; height:60px;}
+/*================form element==================*/
+input.txt{ width:100px;}
+input.stxt{ width:60px;}
+.bt{ padding:0 20px; cursor:pointer;}
+
+/*==================login======================*/
+#loginbody{ background: url(../images/loginbg.gif) repeat-x left center #1D3647; position:relative;}
+#login{ width:1002px; position:absolute; left:50%; top:50%; margin-left:-501px; height:530px; margin-top:-265px;}
+#login_logo{ float:left;width:401px; height:530px; background:url(../images/login_logo.gif) no-repeat right center;}
+#login_form{ float:right;width:601px;height:529px; background:url(../images/login_line.gif) no-repeat left center; padding-top:1px;}
+#login_form h2{ margin-top:150px; margin-left:50px; color:#666; font-size:14px; line-height:30px; height:30px; margin-bottom:30px;}
+#login_form ul{ margin-left:50px;}
+#login_form li{ line-height:20px; clear:both; height:20px; margin-bottom:10px;}
+#login_form li label{ width:60px;  text-align:right; float:left; margin-right:5px; line-height:20px;}
+#login_form li input{ float:left; width:159px;}
+#login_form li .checkno{ width:96px; }
+#login_form li img{ cursor:pointer;}
+#login_form li .loginbt{ margin-left:65px; display:inline; background:url(../images/loginbt.gif) no-repeat; width:159px; height:29px; border:none; cursor:pointer;}
+
+/*=====================msg error=====================*/
+#sysmsg{ margin:50px;}
+#sysmsg h3{ line-height:35px; font-size:18px; color:#333;}
+#sysmsg h3 img{ vertical-align:middle; margin-right:5px;}
+#sysmsg p{ line-height:25px; padding-left:10px;}
+#sysmsg li{ line-height:25px; color:#000; padding-left:10px;}
