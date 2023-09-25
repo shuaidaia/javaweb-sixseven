@@ -25,16 +25,16 @@
 <body>
 <div class="l_sub">
     <div id="subsider" style="background: #313132">
-        <div class="item" style="background: #313132">
-            <h2 style="background: #313132"><a>基本信息</a></h2>
-            <ul style="background: #313132">
-                <li><h3><a href="views/manage/add.jsp" target="mainFrame">修改密码</a></h3></li>
-                <li><h3><a href="views/manage/list.jsp" target="mainFrame">栏目管理</a></h3></li>
-                <li><h3><a href="views/manage/add.jsp" target="mainFrame">Email参数配置</a></h3></li>
-                <%--<li><h3><a href="add.html" target="mainFrame">底部声明</a></h3></li>--%>
-                <%--<li><h3><a href="add.html" target="mainFrame">联系方式</a></h3></li>--%>
-            </ul>
-        </div>
+        <%--<div class="item" style="background: #313132">--%>
+        <%--    <h2 style="background: #313132"><a>基本信息</a></h2>--%>
+        <%--    <ul style="background: #313132">--%>
+        <%--        <li><h3><a href="views/manage/add.jsp" target="mainFrame">修改密码</a></h3></li>--%>
+        <%--        <li><h3><a href="views/manage/list.jsp" target="mainFrame">栏目管理</a></h3></li>--%>
+        <%--        <li><h3><a href="views/manage/add.jsp" target="mainFrame">Email参数配置</a></h3></li>--%>
+        <%--        &lt;%&ndash;<li><h3><a href="add.html" target="mainFrame">底部声明</a></h3></li>&ndash;%&gt;--%>
+        <%--        &lt;%&ndash;<li><h3><a href="add.html" target="mainFrame">联系方式</a></h3></li>&ndash;%&gt;--%>
+        <%--    </ul>--%>
+        <%--</div>--%>
         <div class="item" style="background: #313132">
             <h2><a href="announcementServlet?action=list" target="mainFrame">公告管理</a></h2>
             <ul>
