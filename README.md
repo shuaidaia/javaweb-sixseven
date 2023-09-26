@@ -1,9 +1,14 @@
 # javaweb-sixseven
 
-#### 介绍
-一个纯原生的JavaWeb（servlet+jsp）商城项目
+ ### 介绍 
+ **一个纯原生的JavaWeb（servlet+jsp）商城项目** 
+涵盖了JavaWeb所有的知识点，包括：servlet、过滤器、监听器、线程、事务管理和自定义分页等知识。
 
 #### 软件架构
+技术栈：
+    前端：h5、c3、jq、ajax、jsp
+    后端：JavaWeb、mysql
+
 项目功能模块：首页、商城、购物车、评论吧、订单信息和后台管理
 
 #### 安装教程
