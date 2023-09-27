@@ -134,7 +134,7 @@
     <div class="wrapper">
         <div class="userform">
             <div class="loginform">
-                <h2><span>注册</span>丨<a href="zoffy.html">登录</a></h2>
+                <h2><span>注册</span>丨<a href="views/customer/login.jsp">登录</a></h2>
                 <form action="memberServlet" method="post" class="form-logo">
                     <input type="hidden" name="action" value="register">
                     <span class="errorMsg" style="font-weight: bold; font-size: 5pt; color: orangered">${msg}</span>
@@ -151,7 +151,7 @@
                               placeholder="验证码"/></p>　　
                     <p><img alt="" id="codeImg" src="kaptchaServlet"></p>
                     <p><input type="checkbox" class="ckbox" value="" checked=""/>我已读阅并同意</p>
-                    <p>有账号，请<a href="zoffy.html"><span id="red">登录</span></a>
+                    <p>有账号，请<a href="views/customer/login.jsp"><span id="red">登录</span></a>
                         <button type="subimt" class="loginbt" id="subbtn" name="" value=""/>
                         注册
                     </p>

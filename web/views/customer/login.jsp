@@ -63,14 +63,14 @@
     <div class="wrapper">
         <div class="userform">
             <div class="loginform">
-                <h2><span>登录</span>丨<a href="UltramanJack.html">注册</a></h2>
+                <h2><span>登录</span>丨<a href="views/customer/register.jsp">注册</a></h2>
                 <form class="form-logo" action="memberServlet" method="post">
                     <input type="hidden" name="action" value="login">
                     <span class="errorMsg" style="font-weight: bold; font-size: 5pt; color: orangered">${msg}</span>
                     <p><input type="text" name="username" class="username"  value="${requestScope.username}" id="txtinfor" placeholder="请输入用户名" /></p>
                     <p><input type="password" name="password" class="psd" id="txtinfor" placeholder="请输入密码" /></p>
                     <p><input type="checkbox" class="ckbox"  value="" checked="checked" />记住我（请在私人设备上使用该功能）</p>
-                    <p>还没账号，先<a href="UltramanJack.html"><span id="red">注册</span></a><button type="subimt" class="loginbt" id="" name="" value="" />登录</p>
+                    <p>还没账号，先<a href="views/customer/register.jsp"><span id="red">注册</span></a><button type="subimt" class="loginbt" id="" name="" value="" />登录</p>
                 </form>
             </div>
         </div>
