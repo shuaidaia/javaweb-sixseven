@@ -11,6 +11,9 @@
 
 项目功能模块：首页、商城、购物车、评论吧、订单信息和后台管理
 
+#### 效果图展示
+![20230929133422](.\web\assets\images\QQ图片20230929133422.png)
+
 #### 安装教程
 
 1.  git clone https://gitee.com/shuaidaia/javaweb-sixseven.git
