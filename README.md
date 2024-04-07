@@ -12,6 +12,7 @@
 项目功能模块：首页、商城、购物车、评论吧、订单信息和后台管理
 
 #### 效果图展示
+SixSeven商城项目(Spring Boot + Vue)上线展示地址：[SixSeven商城](http://belly.love:8800)
 ![20230929133422](https://belly-generator-1317114531.cos.ap-guangzhou.myqcloud.com/QQpic20230927120914.gif)
 
 #### 安装教程
